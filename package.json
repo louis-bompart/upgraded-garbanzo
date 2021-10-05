@@ -1,0 +1,27 @@
+{
+  "name": "upgraded-garbanzo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louis-bompart/upgraded-garbanzo.git"
+  },
+  "author": "Louis Bompart <lbompart@coveo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/louis-bompart/upgraded-garbanzo/issues"
+  },
+  "homepage": "https://github.com/louis-bompart/upgraded-garbanzo#readme",
+  "peerDependencies": {
+    "ncc-debounce": "^1.13.1-fix.1"
+  },
+  "peerDependenciesMeta": {
+    "ncc-debounce": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "exponential-backoff": "^3.1.0"
+  }
+}
